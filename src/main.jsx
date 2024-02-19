@@ -9,3 +9,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 //Keep Backend In different repository and front end in different repository
+// use shadcn ui react icons-->Lucide Icons tailwind css
