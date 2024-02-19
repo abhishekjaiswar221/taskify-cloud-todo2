@@ -1,8 +1,11 @@
 const mongoose = require("mongoose"); // Import mongoose module
-
+const { Schema } = mongoose;
 // Declare the Schema of the Mongo model
-const NotesSchema = new mongoose.Schema({
-  // Create a new Schema
+const NotesSchema = new Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "user",
+  },
   title: {
     type: String,
     required: true,
