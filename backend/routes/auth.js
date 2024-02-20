@@ -105,7 +105,7 @@ router.post(
   }
 );
 
-// ROUTE 3: Get details of logged in users using "/api/auth/getuser". Login required
+// ROUTE 3: Get details of logged-in users using "/api/auth/getuser". Login required
 
 router.post("/getuser", fetchuser, async (req, res) => {
   try {
