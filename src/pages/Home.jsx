@@ -3,7 +3,7 @@ import { useState } from "react";
 const Home = () => {
   const [count, setCount] = useState(0);
   return (
-    <div>
+    <div className="h-screen bg-gray-100">
       <h1>This is home page</h1>
       <div className="flex items-center justify-center my-16 card">
         <Button onClick={() => setCount((count) => count + 1)}>
